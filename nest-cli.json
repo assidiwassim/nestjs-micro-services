@@ -27,6 +27,15 @@
       "compilerOptions": {
         "tsConfigPath": "apps/micro-service-1/tsconfig.app.json"
       }
+    },
+    "micro-service-2": {
+      "type": "application",
+      "root": "apps/micro-service-2",
+      "entryFile": "main",
+      "sourceRoot": "apps/micro-service-2/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/micro-service-2/tsconfig.app.json"
+      }
     }
   }
 }

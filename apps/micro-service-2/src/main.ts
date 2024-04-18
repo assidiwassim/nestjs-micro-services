@@ -9,11 +9,11 @@ async function bootstrap() {
       transport: Transport.TCP,
       options: {
         host: '0.0.0.0',
-        port: 3001,
+        port: 3002,
       },
     },
   );
   await app.listen();
-  console.log(`Micro-service is running on port 3001`);
+  console.log(`Micro-service is running on port 3002`);
 }
 bootstrap();
