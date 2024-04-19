@@ -36,6 +36,15 @@
       "compilerOptions": {
         "tsConfigPath": "apps/micro-service-2/tsconfig.app.json"
       }
+    },
+    "shared-dto": {
+      "type": "library",
+      "root": "libs/shared-dto",
+      "entryFile": "index",
+      "sourceRoot": "libs/shared-dto/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/shared-dto/tsconfig.lib.json"
+      }
     }
   }
 }
