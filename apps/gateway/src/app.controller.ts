@@ -29,8 +29,6 @@ export class AppController {
 
     const sum = sum1 + sum2;
 
-    console.log('\nGateway - POST /sum - Result/SUM = ',sum);
-
     console.log(
       '\n\n*********** Operation completed **************\n\n',
     );
