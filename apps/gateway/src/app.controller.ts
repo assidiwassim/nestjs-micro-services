@@ -12,9 +12,7 @@ export class AppController {
 
   @Post('/sum')
   async getRouteTotalSum(@Body() sumInput: SumInput): Promise<number> {
-    console.log(
-      '\n\n*************** Operation started *******************\n\n',
-    );
+
 
     console.log('Gateway - POST /sum - Input/DTO = \n', sumInput);
 
